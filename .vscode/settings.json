@@ -56,8 +56,8 @@
     "code-runner.ignoreSelection": true,
     "files.exclude":{
       //dSYM中具有调试信息，普通使用的话可以不看到它就可以了
-      "**/*.dSYM":true,
-      "**/*.out":true,  //设置为true就会隐藏.out文件
+      "**/*.dSYM":false,
+      "**/*.out":false,  //设置为true就会隐藏.out文件
     },
     "files.associations": {
       "__nullptr": "cpp"
